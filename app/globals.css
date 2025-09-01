@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1200px;
+
+  /* Colors */
+  --color-body: #e5e5e5;
+  --color-white: #ffffff;
+  --color-green: #539592;
+  --color-green-hover: #40807d;
+  --color-black: #273029;
+  --color-black-heavy: #1b211c;
+  --color-grey: #888888;
+  --color-orange: #f2994a;
+  --color-orange-hover: #da863c;
+  --color-outline: #f1f1f1;
+  --color-pink: #ffa5a5;
+
+  /* Background images */
+  --background-image-hero: url("/hero/bg.png");
+  --background-image-menu: url("/menu/bg.png");
+  --background-image-reservation: url("/reservation/bg.png");
+  --background-image-footer: url("/footer/bg.png");
+
+  /* Fonts */
+  --font-poppins: "Poppins", sans-serif;
+  --font-lora: "Lora", serif;
+
+  /* Shadows */
+  --box-shadow-primary: 40px 4px 40px 0px rgba(68, 68, 68, 0.25);
+
+  /* Container */
+  --container-padding: 15px;
+}
+
+/* === Global Styles === */
+body {
+  @apply w-full relative font-poppins bg-body text-black tracking-[0.5px] leading-relaxed;
+}
+
+.container {
+  @apply px-[15px] mx-auto max-w-300 h-full;
+}
+
+.h1,
+.h2,
+.h3 {
+  @apply font-lora font-bold;
+}
+
+.h1 {
+  @apply text-[62px] leading-[84px];
+}
+
+.h2 {
+  @apply text-[32px] leading-[46px];
+}
+
+.h3 {
+  @apply text-[20px] leading-[30px];
+}
+
+p {
+  @apply text-black/80 leading-8;
+}
+
+a {
+  @apply text-white hover:text-orange transition-all duration-300 cursor-pointer;
+}
+
+.label {
+  @apply text-white text-sm uppercase font-normal block mb-2;
+}
+
+.active {
+  @apply text-orange;
+}

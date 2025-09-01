@@ -19,10 +19,7 @@ import { formatCurrency } from "@/lib/utils";
 
 export const Menu = () => {
   return (
-    <section
-      className="relative max-w-320 mx-auto py-12 xl:py-24 bg-menu"
-      id="menu"
-    >
+    <section className="relative py-12 xl:py-24 bg-menu" id="menu">
       <div className="container mx-auto">
         <motion.div
           variants={fadeIn("left", 0.3)}

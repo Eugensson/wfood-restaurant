@@ -10,7 +10,7 @@ import { fadeIn } from "@/lib/variants";
 export const Hero = () => {
   return (
     <section
-      className="bg-hero bg-no-repeat relative xl:bg-cover xl:h-274.5 max-w-320 mx-auto pt-40 pb-32 xl:py-0"
+      className="bg-hero bg-no-repeat relative xl:bg-cover xl:h-274.5 pt-40 pb-32 xl:py-0"
       id="home"
     >
       <div className="container mx-auto">

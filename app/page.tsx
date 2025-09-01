@@ -1,5 +1,13 @@
+import { Hero } from "@/components/hero";
+import { Header } from "@/components/header";
+
 const Home = () => {
-  return <div>homepage</div>;
+  return (
+    <div>
+      <Header />
+      <Hero />
+    </div>
+  );
 };
 
 export default Home;

@@ -37,7 +37,7 @@
 
 @layer base {
   body {
-    @apply w-full relative font-poppins bg-body text-black tracking-[0.5px] leading-relaxed;
+    @apply w-full relative overflow-x-hidden font-poppins bg-body text-black tracking-[0.5px] leading-relaxed;
   }
 
   p {

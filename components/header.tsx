@@ -33,7 +33,7 @@ export const Header = () => {
       )}
     >
       <div className="container mx-auto flex items-center justify-between">
-        <Logo />
+        <Logo width={75} height={30} />
         <Nav containerStyles="hidden xl:flex" linkStyles="capitalize" />
         <ScrollLink to="reservation" smooth>
           <Button variant="orange" size="sm">
